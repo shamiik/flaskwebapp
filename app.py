@@ -43,8 +43,12 @@ def get_output():
     return render_template("index.html", prediction=p, img_path=img_path)
 
 
-# if __name__ == '__main__':
-#     # app.debug = True
-#     app.run(debug=True)
-if __name__ == "__main__":
-    app.run(debug=False, host='0.0.0.0')
+# if __name__ == "__main__":
+#     app.run()
+
+if __name__ == '__main__':
+    # app.debug = True
+    app.run(debug=True)
+
+# if __name__ == "__main__":
+#     app.run(debug=False, host='0.0.0.0')
